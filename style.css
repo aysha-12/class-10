@@ -1,0 +1,226 @@
+.image{
+    background-image: url("./image/background.png");
+    height: 100vh;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+ul>li{
+    list-style: none;
+    
+}
+.child{
+    display: flex;
+    gap: 20px;
+}
+.contant{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn1{
+    border: none;
+    background-color: blue;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 20px;
+   
+}
+.mid-container{
+    text-align: center;
+    margin-top: 190px;
+.what{
+    font-family: poppins;
+    font-size: 50px;
+     color: white;
+}
+
+
+}
+    
+
+.div-1{
+    box-sizing: border-box;
+    height: 160px;
+    width: 230px;
+    color: black;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    margin-top: 50px;
+
+}
+.div-2{
+    box-sizing: border-box;
+    height: 160px;
+    width: 230px;
+    color: black;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    margin-top: 50px;
+      
+}
+.div-3{
+    box-sizing: border-box;
+    height: 160px;
+    width: 230px;
+    color:white;
+    background-color: blue;
+    padding: 20px;
+    position: relative;
+    margin-top: 50px;
+ 
+  }
+.main-container{
+    height: 400px;
+   display: flex;
+   justify-content:center;
+   margin-top: 120px;
+   gap: 100px;
+   text-align: center;
+}
+.top{
+    margin-top: 440px;
+    text-align: center;
+    padding: 30px;
+
+}
+.name{
+    background-color: #f1f1f1;
+    height: 650px;
+
+}
+.all-image{
+    box-sizing: border-box;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+   align-items: center;
+   gap: 30px;
+    margin-top: -10px;
+
+}
+.image-1{
+    box-sizing: border-box;
+    height: 320px;
+    width: 250px;
+    background-color:white;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid lightgrey;
+ 
+   
+
+}
+.image-2{
+    box-sizing: border-box;
+    height: 320px;
+    width:250px;
+    background-color:white;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid lightgray;
+ 
+}
+.image-3{
+    box-sizing: border-box;
+    height: 320px;
+    width: 250px;
+    background-color: white; 
+    text-align: center;
+    padding: 20px;
+    border: 1px solid lightgray;
+  
+}
+.footer{
+    background-image: url("./image-1/background.png");
+    height: 550px;
+    color: white;
+  
+}
+.world{
+    padding: 20px;
+    margin-left: 70px;
+}
+/* footer-section */
+
+.root{
+    display: flex;  
+   justify-content: center;
+   position:relative;
+
+}
+.for{
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+.form{
+    box-sizing: border-box;
+    height: 608px;
+    width: 500px;
+  
+    margin-top: -190px;
+    padding: 30px;
+    background-color: white;
+
+}
+.input{
+    width: 400px;
+   line-height:30px;
+    font-size: 14px;
+    background-color: #f1f1f1;
+    border: none;
+    gap: -10px;
+}
+>input:hover{
+    outline: none;
+}
+.book{
+    background-color: blue;
+    color: white;
+    height: 35px;
+    width: 300px;
+    border: none;
+    font-size: 18px;
+    margin-top:45px;
+    display: flex;
+    justify-content: center;
+}
+.book:hover{
+    background-color: green;
+    outline: none;
+}
+.fox{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f1f1f1;
+}
+.btn-2{
+    border: none;
+    background-color: blue;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+
+}
+.company{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.with{
+     height:80px ;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
