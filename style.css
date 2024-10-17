@@ -1,6 +1,8 @@
 .image{
     background-image: url("./image/background.png");
-    height: 100vh;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
    
 }
 a{
@@ -23,26 +25,55 @@ ul>li{
 
 .btn1{
     border: none;
-    background-color: blue;
-    height: 35px;
+    background-color: #007be5;
+    height: 40px;
+    width: 190px;
     padding: 10px;
     border-radius: 5px;
     color: white;
-    margin-left: 20px;
+    margin-right: -20px;
+    background-image: url("./image-1/icn\ resize\ icn-md\(3\).png");
+    background-repeat: no-repeat;
+    background-position:right ;
+    background-size: 15px 15px;
    
+    
+ 
 }
 .mid-container{
     text-align: center;
     margin-top: 190px;
+}
+.btn-5{
+    height:36px ;
+    border-radius: 15px;
+    width: 110px;
+    border:none;
+     background-color: #007be5;
+    color: white;
+}
+.btn-4{
+    height:36px ;
+    border-radius: 15px;
+    width: 110px;
+    border:1px solid white;
+    background: transparent;
+    color: white;
+}
 .what{
     font-family: poppins;
     font-size: 50px;
      color: white;
-}
 
 
+
 }
-    
+.for-image{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+  
+}  
 
 .div-1{
     box-sizing: border-box;
@@ -71,7 +102,7 @@ ul>li{
     height: 160px;
     width: 230px;
     color:white;
-    background-color: blue;
+    background-color: #007be5;
     padding: 20px;
     position: relative;
     margin-top: 50px;
@@ -113,7 +144,8 @@ ul>li{
     background-color:white;
     text-align: center;
     padding: 20px;
-    border: 1px solid lightgrey;
+    
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
  
    
 
@@ -125,8 +157,8 @@ ul>li{
     background-color:white;
     text-align: center;
     padding: 20px;
-    border: 1px solid lightgray;
- 
+  
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .image-3{
     box-sizing: border-box;
@@ -135,26 +167,144 @@ ul>li{
     background-color: white; 
     text-align: center;
     padding: 20px;
-    border: 1px solid lightgray;
   
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .footer{
     background-image: url("./image-1/background.png");
     height: 550px;
     color: white;
+    background-size: cover;
+    background-position: center;
   
+}
+
+
+.png{
+    display: flex;
+   justify-content: center;
+   gap: 20px;
+   align-items: center;
+   height: 50px;
+   margin-top: 30px;
+ 
+}
+.type{
+    display: flex;
+   justify-content: space-evenly;
+    height: 100px;
+    background: linear-gradient(to right, #3c3989, #bd1a89);
+    margin-top: 30px;
+    align-items: center;
+    width: 970px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    
+       
+   
+}
+.label{
+    position: relative;
+    margin-left: -20px;
+}
+input[type="text"]{
+    border: none;
+    width: 250px ;
+    height: 40px;
+    padding: 0 15px;
+}
+.btn-6{
+    position: absolute;
+    background-color: #007be5;
+    padding: 0 15px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    height: 42px;
+}
+.btn-6:hover{
+    transition: .9s;
+    background-color: green;
 }
 .world{
     padding: 20px;
     margin-left: 70px;
 }
+.alt{
+    margin-top: 100px;
+}
+
+.creat{
+    
+    height: 600px;   
+    padding: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.resolve{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: "poppins";
+}
+
+.element span{
+    font-size: 18px;
+}
+.row-1{
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+.row-2{
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:  #252b42;
+    height: 50px 0 0 0;
+    color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.row-3{
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   
+}
+.btn-7{
+    position: absolute;
+    background-color: #007be5;
+    padding:10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    height:35px;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 50px;
+    width: 130px;
+}
+.btn-7:hover{
+    transition: .9s;
+    background-color: green;
+}
+
 /* footer-section */
 
 .root{
     display: flex;  
    justify-content: center;
    position:relative;
-
 }
 .for{
     display: flex;
@@ -167,26 +317,40 @@ ul>li{
     width: 500px;
   
     margin-top: -190px;
-    padding: 30px;
+    padding:25px;
     background-color: white;
 
 }
 .input{
-    width: 400px;
-   line-height:30px;
-    font-size: 14px;
-    background-color: #f1f1f1;
+  
+    height: 25px;
+    width: 95%;
+    padding: 10px;
+    font-size:13px;
+    border-radius: 3px;
     border: none;
-    gap: -10px;
+    background-color: #f1f1f1;
+    gap: -20px;
 }
->input:hover{
+.please{
+   
+    height: 40px;
+    width: 98%;
+    padding: 10px;
+    font-size:13px;
+    border-radius: 3px;
+    border: none;
+    background-color: #f1f1f1;
+}
+
+.input:hover{
     outline: none;
 }
 .book{
-    background-color: blue;
+    background-color: #007be5;
     color: white;
     height: 35px;
-    width: 300px;
+    width: 95%;
     border: none;
     font-size: 18px;
     margin-top:45px;
@@ -205,7 +369,7 @@ ul>li{
 }
 .btn-2{
     border: none;
-    background-color: blue;
+    background-color: #007be5;
     height: 35px;
     padding: 10px;
     border-radius: 5px;
