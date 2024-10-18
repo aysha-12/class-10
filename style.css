@@ -31,7 +31,7 @@ ul>li{
     padding: 10px;
     border-radius: 5px;
     color: white;
-    margin-right: -20px;
+    margin-left: 20px;
     background-image: url("./image-1/icn\ resize\ icn-md\(3\).png");
     background-repeat: no-repeat;
     background-position:right ;
@@ -210,7 +210,7 @@ ul>li{
 }
 input[type="text"]{
     border: none;
-    width: 250px ;
+    width: 220px ;
     height: 40px;
     padding: 0 15px;
 }
@@ -222,7 +222,8 @@ input[type="text"]{
     font-size: 20px;
     border: none;
     cursor: pointer;
-    height: 42px;
+    height: 41px;
+        
 }
 .btn-6:hover{
     transition: .9s;
@@ -324,7 +325,7 @@ input[type="text"]{
 .input{
   
     height: 25px;
-    width: 95%;
+    width:95% ;
     padding: 10px;
     font-size:13px;
     border-radius: 3px;
@@ -332,6 +333,7 @@ input[type="text"]{
     background-color: #f1f1f1;
     gap: -20px;
 }
+
 .please{
    
     height: 40px;
