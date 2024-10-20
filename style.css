@@ -1,6 +1,6 @@
 .image{
     background-image: url("./image/background.png");
-    height: 700px;
+    height: 700px;;
     background-size: cover;
     background-position: center;
    
@@ -35,14 +35,18 @@ ul>li{
     background-image: url("./image-1/icn\ resize\ icn-md\(3\).png");
     background-repeat: no-repeat;
     background-position:right ;
-    background-size: 15px 15px;
-   
-    
+    background-size: 15px 15px;    
  
 }
 .mid-container{
     text-align: center;
-    margin-top: 190px;
+    margin-top: 200px;
+}
+.peace-of-mind{
+    display: flex;
+    justify-content:center;
+    gap: 70px;
+
 }
 .btn-5{
     height:36px ;
@@ -109,32 +113,32 @@ ul>li{
  
   }
 .main-container{
-    height: 400px;
+   
    display: flex;
    justify-content:center;
-   margin-top: 120px;
+   margin-top: 150px;
    gap: 100px;
    text-align: center;
 }
 .top{
-    margin-top: 440px;
+    margin-top: 20px;
     text-align: center;
     padding: 30px;
+
 
 }
 .name{
     background-color: #f1f1f1;
-    height: 650px;
-
+  margin-top: 100px;
 }
 .all-image{
     box-sizing: border-box;
-    height: 400px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-evenly;
    align-items: center;
    gap: 30px;
-    margin-top: -10px;
+;
 
 }
 .image-1{
@@ -144,7 +148,7 @@ ul>li{
     background-color:white;
     text-align: center;
     padding: 20px;
-    
+ 
      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
  
    
@@ -157,7 +161,7 @@ ul>li{
     background-color:white;
     text-align: center;
     padding: 20px;
-  
+
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .image-3{
@@ -167,6 +171,7 @@ ul>li{
     background-color: white; 
     text-align: center;
     padding: 20px;
+;
   
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -175,7 +180,7 @@ ul>li{
     height: 550px;
     color: white;
     background-size: cover;
-    background-position: center;
+ 
   
 }
 
@@ -185,24 +190,21 @@ ul>li{
    justify-content: center;
    gap: 20px;
    align-items: center;
-   height: 50px;
+ 
    margin-top: 30px;
  
 }
 .type{
     display: flex;
    justify-content: space-evenly;
-    height: 100px;
     background: linear-gradient(to right, #3c3989, #bd1a89);
     margin-top: 30px;
     align-items: center;
-    width: 970px;
-    margin-left: 200px;
     margin-bottom: 50px;
     border-radius: 5px;
-    
-       
-   
+    width: 1000px;
+    height: 100px;
+    margin-left: 150px;
 }
 .label{
     position: relative;
@@ -237,13 +239,12 @@ input[type="text"]{
     margin-top: 100px;
 }
 
-.creat{
-    
-    height: 600px;   
-    padding: 20px;
-    margin-bottom: 50px;
+.creat{    
     display: flex;
     justify-content: center;
+    gap: 2px;
+    padding: 20px;
+    margin-bottom: 50px;
 }
 .resolve{
     text-align: center;
@@ -257,28 +258,29 @@ input[type="text"]{
 }
 .row-1{
     box-sizing: border-box;
-    border: 1px solid gray;
+    border: 1px solid #007be5;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    
+    height: 590px;
 }
 .row-2{
     box-sizing: border-box;
-    border: 1px solid gray;
+    border: 1px solid #007be5;
     border-radius: 10px;
     padding: 10px;
     background-color:  #252b42;
     height: 50px 0 0 0;
     color: white;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 620px;
+    margin-top: -30px;
 }
 .row-3{
     box-sizing: border-box;
-    border: 1px solid gray;
+    border: 1px solid #007be5;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 590px;
+   
    
 }
 .btn-7{
@@ -297,7 +299,7 @@ input[type="text"]{
 }
 .btn-7:hover{
     transition: .9s;
-    background-color: green;
+    background-color:#f1f1f1;
 }
 
 /* footer-section */
@@ -306,6 +308,7 @@ input[type="text"]{
     display: flex;  
    justify-content: center;
    position:relative;
+   font-family: poppins;
 }
 .for{
     display: flex;
@@ -360,14 +363,15 @@ input[type="text"]{
     justify-content: center;
 }
 .book:hover{
-    background-color: green;
+    background-color:#f1f1f1;
     outline: none;
+    color: #007be5;
 }
 .fox{
-    margin-top: 150px;
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #f1f1f1;
+   display: flex;
+   justify-content: space-around;
+   margin-top: 40px;
+   
 }
 .btn-2{
     border: none;
@@ -379,14 +383,133 @@ input[type="text"]{
     margin-top: 20px;
 
 }
+.color{
+    margin-top: -190px;
+}
 .company{
     margin-top: 100px;
     display: flex;
     justify-content: space-around;
+    font-family: poppins;
 }
 .with{
-     height:80px ;
+     background-color: #f1f1f1 ;
     display: flex;
     justify-content: space-around;
     margin-top: 80px;
+    padding: 20px;
+    
+}
+
+@media screen and (max-width:576px){
+    .contant{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+         
+    }
+    .child{
+        display:flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .peace-of-mind{
+        display:block;
+        margin-left: 30px;
+        margin-top:- 100px;
+        gap: 20px;
+        overflow: hidden;
+    }
+    .mid-container{
+        text-align: center;
+        font-size: 17px;
+        margin-top: 30px;
+    }
+    .main-container{
+        display:flex;
+        flex-direction: column;
+        margin-top: 700px;
+       
+       
+    }
+    .all-image{
+        display: flex;
+        flex-direction: column;
+    }
+    .creat{
+        display: flex;
+        flex-direction: column;
+        gap:34px
+    }
+    .row-3{
+        margin-top:-24px;
+    }
+    .root{
+        display: flex;
+        flex-direction: column;
+        position:relative;
+       
+        overflow: hidden;
+        width: 100%;
+    }
+    .name{
+
+    }
+    .png{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        overflow: hidden;
+    }
+    .for{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        margin-right: 20px;
+    }
+    .type{
+        display: block;
+       
+       position: center;
+       overflow: hidden;
+    }
+    .company{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-left: 15px;
+        padding-right: 15px;
+        
+    }
+    .color{
+        width: 400px;
+        margin-top: 20px;
+        position: center;
+    }
+    .form{
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    .fox{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        overflow: hidden;
+       
+    }
+    .footer{
+        padding: 10px;
+        overflow: hidden;
+    }
+    .btn{
+        width: 200px;
+        display: flex;
+        align-items: center;
+    }
+    .with{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+   
+   
 }
