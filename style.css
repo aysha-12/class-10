@@ -1,6 +1,6 @@
 .image{
     background-image: url("./image/background.png");
-    height: 700px;;
+    height: 700px;
     background-size: cover;
     background-position: center;
    
@@ -8,7 +8,10 @@
 a{
     text-decoration: none;
     color: white;
-    font-size: 10px;
+    font-size: 1vw;
+}
+.h3{
+    color: white;
 }
 ul>li{
     list-style: none;
@@ -26,52 +29,69 @@ ul>li{
 .btn1{
     border: none;
     background-color: #007be5;
-    height: 40px;
-    width: 190px;
+    padding: 2vw;
     padding: 10px;
     border-radius: 5px;
     color: white;
     margin-left: 20px;
-    background-image: url("./image-1/icn\ resize\ icn-md\(3\).png");
-    background-repeat: no-repeat;
-    background-position:right ;
-    background-size: 15px 15px;    
- 
+   
 }
+/* hero-section */
 .mid-container{
     text-align: center;
     margin-top: 200px;
 }
-.peace-of-mind{
-    display: flex;
-    justify-content:center;
-    gap: 70px;
 
+.btn-4{
+
+    border-radius:20px;
+    border:1px solid white;
+    background: transparent;
+    color: white;
+    padding: 1vw;
 }
 .btn-5{
-    height:36px ;
-    border-radius: 15px;
-    width: 110px;
+
+    border-radius: 20px;
+    padding: 1vw;
     border:none;
      background-color: #007be5;
     color: white;
 }
-.btn-4{
-    height:36px ;
-    border-radius: 15px;
-    width: 110px;
-    border:1px solid white;
-    background: transparent;
-    color: white;
-}
+
 .what{
     font-family: poppins;
-    font-size: 50px;
+    font-size: 4vw;
      color: white;
+}
 
 
+/* peace-of-mind */
+
+.peace-of-mind{
+    display: flex;
+    justify-content:center;
+    gap:4vw;
+    margin-bottom:6vw;
 
 }
+.given{
+    margin-top: 6vw; 
+    padding: 2vw;
+    width: 200px;
+}
+.given-1{
+    margin-top: 6vw;
+    padding: 2vw;
+    width: 200px;
+}
+.given-2{
+    margin-top: 6vw; 
+    padding: 2vw; width: 200px;
+}
+
+
+
 .for-image{
     margin-top: 10px;
     width: 100px;
@@ -80,38 +100,35 @@ ul>li{
 }  
 
 .div-1{
-    box-sizing: border-box;
-    height: 160px;
-    width: 230px;
+
+    padding: 2vw;
     color: black;
     background-color: white;
-    padding: 20px;
+    width: 200px;
     position: relative;
-    margin-top: 50px;
+    margin-top:40px;
 
 }
 .div-2{
-    box-sizing: border-box;
-    height: 160px;
-    width: 230px;
+   
     color: black;
     background-color: white;
-    padding: 20px;
+    padding: 2vw;
+    width: 200px;
     position: relative;
-    margin-top: 50px;
+    margin-top: 40px;
       
 }
-.div-3{
-    box-sizing: border-box;
-    height: 160px;
-    width: 230px;
+.div-3{ 
     color:white;
     background-color: #007be5;
-    padding: 20px;
+    padding: 2vw;
+    width: 200px;
     position: relative;
-    margin-top: 50px;
+    margin-top: 40px;
  
   }
+  /* set-for-life */
 .main-container{
    
    display: flex;
@@ -138,6 +155,7 @@ ul>li{
     justify-content: space-evenly;
    align-items: center;
    gap: 30px;
+   padding-bottom: 50px
 ;
 
 }
@@ -196,15 +214,19 @@ ul>li{
 }
 .type{
     display: flex;
-   justify-content: space-evenly;
-    background: linear-gradient(to right, #3c3989, #bd1a89);
-    margin-top: 30px;
+   justify-content: space-evenly;  
     align-items: center;
-    margin-bottom: 50px;
-    border-radius: 5px;
-    width: 1000px;
-    height: 100px;
-    margin-left: 150px;
+   margin-left:10vw ;
+   margin-right:10vw ;
+   margin-top: 2vw;
+    background-color: #007be5;
+    background: linear-gradient(to right,#3c3989,#bd1a89);
+    border-radius: .5vw;
+  
+}
+.test{
+    font-size:2vw;margin-right: 20px;
+
 }
 .label{
     position: relative;
@@ -212,19 +234,19 @@ ul>li{
 }
 input[type="text"]{
     border: none;
-    width: 220px ;
-    height: 40px;
-    padding: 0 15px;
+   padding: 1vw 3vw;
+  
+   
 }
 .btn-6{
     position: absolute;
     background-color: #007be5;
-    padding: 0 15px;
+    padding:.75vw .5vw;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size:1.4vw;
     border: none;
     cursor: pointer;
-    height: 41px;
+    
         
 }
 .btn-6:hover{
@@ -317,24 +339,26 @@ input[type="text"]{
 }
 .form{
     box-sizing: border-box;
-    height: 608px;
-    width: 500px;
-  
+   height: 608px;
+    width: 530px;
     margin-top: -190px;
     padding:25px;
+   
+    padding-bottom:2vw;
     background-color: white;
 
 }
 .input{
   
     height: 25px;
-    width:95% ;
+    width:93% ;
     padding: 10px;
     font-size:13px;
     border-radius: 3px;
     border: none;
     background-color: #f1f1f1;
-    gap: -20px;
+    gap: -10px;
+    margin-top: -10;
 }
 
 .please{
@@ -346,6 +370,7 @@ input[type="text"]{
     border-radius: 3px;
     border: none;
     background-color: #f1f1f1;
+    
 }
 
 .input:hover{
@@ -358,7 +383,7 @@ input[type="text"]{
     width: 95%;
     border: none;
     font-size: 18px;
-    margin-top:45px;
+    margin-top:20px;
     display: flex;
     justify-content: center;
 }
@@ -383,6 +408,11 @@ input[type="text"]{
     margin-top: 20px;
 
 }
+.btn-2:hover{
+    background-color:aqua;
+    color: black;
+
+}
 .color{
     margin-top: -190px;
 }
@@ -402,16 +432,33 @@ input[type="text"]{
 }
 
 @media screen and (max-width:576px){
+    
+    
+    
+    
+    
     .contant{
         display: flex;
         flex-direction: column;
         align-items: center;    
-         
+        margin-bottom: 100px;
+        background-color:white;
+        width: 100%;
+        
     }
     .child{
         display:flex;
         flex-direction: column;
         gap: 5px;
+        margin-top: 20px;
+    }
+    a{ font-size: 2.5vw;
+        color: black;
+
+    }
+    .h3{
+        font-size: 4vw;
+        color: black;
     }
     .peace-of-mind{
         display:block;
@@ -428,9 +475,15 @@ input[type="text"]{
     .main-container{
         display:flex;
         flex-direction: column;
-        margin-top: 700px;
+        margin-top:450px;
+      
        
-       
+    }
+    .given-1{
+       margin-top: -50px;
+    }
+    .given-2{
+        margin-top: -50px;
     }
     .all-image{
         display: flex;
@@ -452,9 +505,7 @@ input[type="text"]{
         overflow: hidden;
         width: 100%;
     }
-    .name{
 
-    }
     .png{
         display: flex;
         flex-direction: column;
@@ -468,10 +519,22 @@ input[type="text"]{
         margin-right: 20px;
     }
     .type{
-        display: block;
-       
-       position: center;
-       overflow: hidden;
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+       height:25vh;
+      
+     
+    }
+    .test{
+        font-size:5vw;
+
+    }
+    .btn-6{
+        font-size:3vw;
+    }
+    .label{
+        margin-bottom: 3vw;
     }
     .company{
         display:grid;
