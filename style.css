@@ -360,6 +360,17 @@ input[type="text"]{
     gap: -10px;
     margin-top: -10;
 }
+.input-name{
+    height: 25px;
+    width:80% ;
+    padding: 10px;
+    font-size:13px;
+    border-radius: 3px;
+    border: none;
+    background-color: #f1f1f1;
+    gap: -10px;
+    margin-top: -10;
+}
 
 .please{
    
@@ -572,6 +583,11 @@ input[type="text"]{
         display: flex;
         flex-direction: column;
         overflow: hidden;
+    }
+    .btn-2{
+        width: 20vw;
+       margin-left: 200px;
+       margin-bottom: 30px;
     }
    
    
